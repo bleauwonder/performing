@@ -1,6 +1,13 @@
 .menu-icon {
     padding: 0 14px;
+    height: 40px;
+    width: 40px;
     cursor: pointer;
+  }
+
+  .logo {
+      height: 90%;
+      width: 10%;
   }
   
   .spacer {
@@ -15,4 +22,5 @@
   .toolbar {
     background-color: #16114c;
     color: white;
+    height: 60%;
   }
