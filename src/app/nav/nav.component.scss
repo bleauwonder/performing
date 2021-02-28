@@ -1,9 +1,35 @@
+.toolbar {
+  background-color: transparent;
+}
+
+.mat-menu {
+  height: 100px !important;
+  width: 800px !important;
+  background: #00D0EF !important;
+}
+
+.mat-menu-item {
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 20px;
+}
+
 .menu-icon {
     padding: 0 14px;
-    height: 40px;
-    width: 40px;
     cursor: pointer;
-  }
+}
+
+.mat-icon {
+  background: -moz-linear-gradient(top, #00D0EF 0%, #527A80 100%);
+  background: -webkit-linear-gradient(top, #00D0EF 0%, #527A80 100%);
+  background: linear-gradient(to bottom, #00D0EF 0%, #527A80 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 60px;
+  height: 60px;
+  width: 60px
+}
 
   .logo {
       height: 90%;
@@ -14,13 +40,3 @@
     flex: 1 1 auto;
   }
   
-  .mat-typography {
-    font-family: 'Tomorrow', sans-serif;
-    font-size: 3em;
-  }
-
-  .toolbar {
-    background-color: #16114c;
-    color: white;
-    height: 60%;
-  }

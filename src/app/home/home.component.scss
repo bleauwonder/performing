@@ -1,17 +1,18 @@
 .home {
     background-image: url(/assets/img/fromTheTrain.jpg);
-    height: 50%;
+    margin-top: -70px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
     .header {
-        margin: 0 auto;
         height: 300px;
         h1 {
+            padding-top: 120px;
+            text-align: center;
+            width: 100%;
             font-family: 'Nothing You Could Do', cursive;
-            font-size: 56px;
-
+            font-size: 120px;
             color: #00D0EF;
         }
     }

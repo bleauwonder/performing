@@ -10,13 +10,15 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
-import { MenuComponent } from './menu/menu.component';
 import { LayoutComponent } from './layout/layout.component';
-import { MailingListComponent } from './mailing-list/mailing-list.component';
+import { MailingListComponent } from './cards/mailing-list/mailing-list.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
-import { ListenComponent } from './listen/listen.component';
-import { WatchComponent } from './watch/watch.component';
+import { ListenComponent } from './cards/listen/listen.component';
+import { WatchComponent } from './cards/watch/watch.component';
+import { AboutCardComponent } from './cards/about-card/about-card.component';
+import { PhotoCardComponent } from './cards/photo-card/photo-card.component';
+import { ContactCardComponent } from './cards/contact-card/contact-card.component';
 
 
 @NgModule({
@@ -24,14 +26,16 @@ import { WatchComponent } from './watch/watch.component';
     AppComponent,
     FooterComponent,
     HomeComponent,
-    MenuComponent,
     LayoutComponent,
     NavComponent,
     MailingListComponent,
     AboutComponent,
     ContactComponent,
     ListenComponent,
-    WatchComponent
+    WatchComponent,
+    AboutCardComponent,
+    PhotoCardComponent,
+    ContactCardComponent
   ],
   imports: [
     BrowserModule,

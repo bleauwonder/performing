@@ -1,0 +1,14 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(189, 195, 199, 0.8);
+    &-copyright {
+        font-family: 'Nothing You Could Do', cursive;
+        color: #00D0EF;
+    }
+    .logo {
+        height: 90%;
+        width: 10%;
+    }
+}
