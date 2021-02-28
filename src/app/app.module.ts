@@ -4,7 +4,6 @@ import { RouterModule } from '@angular/router'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -17,18 +16,17 @@ import { HomeComponent } from './home/home.component';
 import { MenuComponent } from './menu/menu.component';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { LayoutComponent } from './layout/layout.component';
-import { SidenavComponent } from './sidenav/sidenav.component';
+import { NavComponent } from './nav/nav.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
     FooterComponent,
     HomeComponent,
     MenuComponent,
     LayoutComponent,
-    SidenavComponent
+    NavComponent
   ],
   imports: [
     BrowserModule,

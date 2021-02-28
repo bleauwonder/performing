@@ -1,0 +1,14 @@
+
+        <mat-toolbar class="toolbar">
+            <mat-toolbar-row>
+              <span class="mat-typography">Jobs Inc</span>
+              <span class="spacer"></span>
+              <mat-icon class="menu-icon" aria-hidden="false" aria-label="menu icon" [matMenuTriggerFor]="menu">menu</mat-icon>
+              <mat-menu #menu>
+                <button mat-menu-item routerLink="/about" routerLinkActive="active">About</button>
+                <button mat-menu-item routerLink="/contact" routerLinkActive="active">Contact</button>
+                <button mat-menu-item routerLink="/home" routerLinkActive="active">Home</button>
+              </mat-menu>
+            </mat-toolbar-row>
+          </mat-toolbar>
+
