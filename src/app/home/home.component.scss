@@ -1,13 +1,20 @@
 .home {
-    height: 100%;
-    width: 100%;
-    background-image: url("/src/assets/img/fromTheTrain.jpg");
-    .homeText{
-        font-size: 35px;
-        color: red;
-        text-align: center;
-        position: relative;
-        top:30px;
-        text-shadow: 2px 2px 2px gray;
+
+    span {
+        font-weight: bold;
+        background: lightgray;
+        padding: .3em .8em;
+        cursor: pointer;
+    }
+    
+    .play-container {
+        padding: 3em;
+        border: 1px solid lightgray;
+        margin-bottom: 1em;
+    
+        input {
+            padding: 1em;
+            margin-bottom: 2em;
+        }
     }
 }
