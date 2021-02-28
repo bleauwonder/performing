@@ -16,6 +16,7 @@ import { MailingListComponent } from './mailing-list/mailing-list.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { ListenComponent } from './listen/listen.component';
+import { WatchComponent } from './watch/watch.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { ListenComponent } from './listen/listen.component';
     MailingListComponent,
     AboutComponent,
     ContactComponent,
-    ListenComponent
+    ListenComponent,
+    WatchComponent
   ],
   imports: [
     BrowserModule,

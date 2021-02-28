@@ -5,10 +5,15 @@
     background-repeat: no-repeat;
     background-size: cover;
 
-    h1 {
-        font-family: 'Nothing You Could Do', cursive;
-        font-size: 56px;
+    .header {
         margin: 0 auto;
+        height: 300px;
+        h1 {
+            font-family: 'Nothing You Could Do', cursive;
+            font-size: 56px;
+
+            color: #00D0EF;
+        }
     }
  
 }
