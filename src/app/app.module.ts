@@ -13,6 +13,8 @@ import { HomeComponent } from './home/home.component';
 import { MenuComponent } from './menu/menu.component';
 import { LayoutComponent } from './layout/layout.component';
 import { MailingListComponent } from './mailing-list/mailing-list.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -23,7 +25,9 @@ import { MailingListComponent } from './mailing-list/mailing-list.component';
     MenuComponent,
     LayoutComponent,
     NavComponent,
-    MailingListComponent
+    MailingListComponent,
+    AboutComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
