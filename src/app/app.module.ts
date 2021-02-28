@@ -15,6 +15,7 @@ import { LayoutComponent } from './layout/layout.component';
 import { MailingListComponent } from './mailing-list/mailing-list.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import { ListenComponent } from './listen/listen.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { ContactComponent } from './contact/contact.component';
     NavComponent,
     MailingListComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    ListenComponent
   ],
   imports: [
     BrowserModule,
