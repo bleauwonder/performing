@@ -9,16 +9,18 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
-import { HomeComponent } from './home/home.component';
-import { LayoutComponent } from './layout/layout.component';
-import { MailingListComponent } from './cards/mailing-list/mailing-list.component';
-import { AboutComponent } from './about/about.component';
-import { ContactComponent } from './contact/contact.component';
-import { ListenComponent } from './cards/listen/listen.component';
-import { WatchComponent } from './cards/watch/watch.component';
+import { HomeComponent } from './pages/home/home.component';
+import { MailingListComponent } from './cards/mailing-list-card/mailing-list.component';
+import { AboutComponent } from './pages/about/about.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { ListenComponent } from './cards/listen-card/listen.component';
+import { WatchComponent } from './cards/watch-card/watch.component';
 import { AboutCardComponent } from './cards/about-card/about-card.component';
 import { PhotoCardComponent } from './cards/photo-card/photo-card.component';
 import { ContactCardComponent } from './cards/contact-card/contact-card.component';
+import { HeaderTitleComponent } from './cards/header-title-card/header-title.component';
+import { PhotosComponent } from './pages/photos/photos.component';
+import { GalleryCardComponent } from './cards/gallery-card/gallery-card.component';
 
 
 @NgModule({
@@ -26,7 +28,6 @@ import { ContactCardComponent } from './cards/contact-card/contact-card.componen
     AppComponent,
     FooterComponent,
     HomeComponent,
-    LayoutComponent,
     NavComponent,
     MailingListComponent,
     AboutComponent,
@@ -35,7 +36,10 @@ import { ContactCardComponent } from './cards/contact-card/contact-card.componen
     WatchComponent,
     AboutCardComponent,
     PhotoCardComponent,
-    ContactCardComponent
+    ContactCardComponent,
+    HeaderTitleComponent,
+    PhotosComponent,
+    GalleryCardComponent
   ],
   imports: [
     BrowserModule,
