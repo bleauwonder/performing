@@ -21,6 +21,7 @@ import { ContactCardComponent } from './cards/contact-card/contact-card.componen
 import { HeaderTitleComponent } from './cards/header-title-card/header-title.component';
 import { PhotosComponent } from './pages/photos/photos.component';
 import { GalleryCardComponent } from './cards/gallery-card/gallery-card.component';
+import { BioCardComponent } from './cards/bio-card/bio-card.component';
 
 
 @NgModule({
@@ -39,7 +40,8 @@ import { GalleryCardComponent } from './cards/gallery-card/gallery-card.componen
     ContactCardComponent,
     HeaderTitleComponent,
     PhotosComponent,
-    GalleryCardComponent
+    GalleryCardComponent,
+    BioCardComponent
   ],
   imports: [
     BrowserModule,
