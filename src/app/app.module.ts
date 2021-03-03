@@ -22,6 +22,9 @@ import { HeaderTitleComponent } from './cards/header-title-card/header-title.com
 import { PhotosComponent } from './pages/photos/photos.component';
 import { GalleryCardComponent } from './cards/gallery-card/gallery-card.component';
 import { BioCardComponent } from './cards/bio-card/bio-card.component';
+import { BioPhotoCardComponent } from './cards/bio-photo-card/bio-photo-card.component';
+import { BioCardTwoComponent } from './cards/bio-card-two/bio-card-two.component';
+import { BioCardThreeComponent } from './cards/bio-card-three/bio-card-three.component';
 
 
 @NgModule({
@@ -41,7 +44,10 @@ import { BioCardComponent } from './cards/bio-card/bio-card.component';
     HeaderTitleComponent,
     PhotosComponent,
     GalleryCardComponent,
-    BioCardComponent
+    BioCardComponent,
+    BioPhotoCardComponent,
+    BioCardTwoComponent,
+    BioCardThreeComponent
   ],
   imports: [
     BrowserModule,
