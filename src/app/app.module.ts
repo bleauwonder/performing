@@ -25,6 +25,7 @@ import { BioCardComponent } from './cards/bio-card/bio-card.component';
 import { BioPhotoCardComponent } from './cards/bio-photo-card/bio-photo-card.component';
 import { BioCardTwoComponent } from './cards/bio-card-two/bio-card-two.component';
 import { BioCardThreeComponent } from './cards/bio-card-three/bio-card-three.component';
+import { VideosComponent } from './pages/videos/videos.component';
 
 
 @NgModule({
@@ -47,7 +48,8 @@ import { BioCardThreeComponent } from './cards/bio-card-three/bio-card-three.com
     BioCardComponent,
     BioPhotoCardComponent,
     BioCardTwoComponent,
-    BioCardThreeComponent
+    BioCardThreeComponent,
+    VideosComponent
   ],
   imports: [
     BrowserModule,
