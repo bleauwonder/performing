@@ -3,9 +3,14 @@
     align-items: center;
     align-content: center;
     justify-content: space-around;
-    width: 800px;
-    height: 300px;
-    margin: 40px 0px 40px 600px;
+    width: 400px;
+    height: 150px;
+    margin: 40px auto;
+    @media only screen and (min-width: 800px) {
+      width: 500px;
+      height: 200px;
+      margin-left: 35%;
+    }
   }
   
   .mat-card {
@@ -15,7 +20,10 @@
     .mat-card-header {
       width: 35%;
     .mat-card-title {
-      font-size: 36px !important;
+      font-size: 20px;
+      @media only screen and (min-width: 800px) {
+        font-size: 36px !important;
+      }
       line-height: 1;
     }
   }

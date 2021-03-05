@@ -3,9 +3,14 @@
     align-items: center;
     align-content: center;
     justify-content: space-around;
-    width: 800px;
-    height: 200px;
-    margin: 40px 40px 40px 40px;
+    width: 400px;
+    height: 150px;
+    margin: 40px auto;
+    @media only screen and (min-width: 800px) {
+      width: 500px;
+      height: 200px;
+      margin: 40px;
+    }
   }
   
   .mat-card {
@@ -13,27 +18,16 @@
     color: black;
     font-family: 'Nothing You Could Do', cursive;
     .mat-card-header {
-    .mat-card-title {
-      font-size: 36px !important;
-      line-height: 1;
+      .mat-card-title {
+        font-size: 20px;
+        @media only screen and (min-width: 800px) {
+          font-size: 36px !important;
+        }
+        line-height: 1;
+      }
     }
-  }
-  }
-  
-  .logo {
-    width: 25%;
-  }
-  
-  .email-form {
-    min-width: 150px;
-    max-width: 500px;
-    width: 100%;
-    .mat-label,
-    .mat-input-element {
-      font-size: 18px;
-    }
-  }
-    
+  }  
+
   .mat-card-actions {
     margin-bottom: 0;
     margin-left: 10px;

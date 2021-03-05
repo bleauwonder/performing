@@ -3,9 +3,14 @@
     align-items: center;
     align-content: center;
     justify-content: space-around;
-    width: 800px;
-    height: 400px;
-    margin: 40px 0px 40px 500px;
+    width: 400px;
+    height: 150px;
+    margin: 0 auto;
+    @media only screen and (min-width: 800px) {
+      width: 600px;
+      height: 300px;
+      margin-left: 35%;
+    }
   }
   
   .mat-card {
@@ -17,7 +22,10 @@
         align-items: center;
         .mat-card-title {
             justify-content: center;
-            font-size: 36px !important;
+            font-size: 20px;
+            @media only screen and (min-width: 800px) {
+              font-size: 36px !important;
+            }
             line-height: 1;
         }
         .mat-card-actions {
@@ -27,13 +35,18 @@
     }
   }
   
-  .logo {
-    width: 25%;
+  .iframe {
+    width: 100px;
+    height: 50px;
+    @media only screen and (min-width: 800px) {
+      width: 400px;
+      height: 300px;
+    }
   }
   
   .mat-button {background-image: linear-gradient(to right, #2BC0E4 0%, #EAECC6  51%, #2BC0E4  100%)}
   .mat-button {
-     margin: 10px;
+     margin: 20px;
      padding: 10px 15px;
      text-align: center;
      text-transform: uppercase;
