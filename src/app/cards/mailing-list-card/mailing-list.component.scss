@@ -50,6 +50,7 @@
   .mat-label,
   .mat-input-element {
     font-size: 20px;
+    color: black;
   }
 }
   
@@ -61,7 +62,7 @@
 .mat-button {background-image: linear-gradient(to right, #2BC0E4 0%, #EAECC6  51%, #2BC0E4  100%)}
 .mat-button {
    margin: 10px;
-   padding: 10px 15px;
+   padding: 10px 35px;
    text-align: center;
    text-transform: uppercase;
    transition: 0.5s;

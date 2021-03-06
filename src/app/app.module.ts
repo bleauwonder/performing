@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material';
@@ -21,11 +21,12 @@ import { ContactCardComponent } from './cards/contact-card/contact-card.componen
 import { HeaderTitleComponent } from './cards/header-title-card/header-title.component';
 import { PhotosComponent } from './pages/photos/photos.component';
 import { GalleryCardComponent } from './cards/gallery-card/gallery-card.component';
-import { BioCardComponent } from './cards/bio-card/bio-card.component';
+import { BioCardOneComponent } from './cards/bio-card-one/bio-card-one.component';
 import { BioPhotoCardComponent } from './cards/bio-photo-card/bio-photo-card.component';
 import { BioCardTwoComponent } from './cards/bio-card-two/bio-card-two.component';
 import { BioCardThreeComponent } from './cards/bio-card-three/bio-card-three.component';
 import { VideosComponent } from './pages/videos/videos.component';
+import { MailDialogComponent } from './dialogs/mail-dialog/mail-dialog.component';
 
 
 @NgModule({
@@ -45,11 +46,12 @@ import { VideosComponent } from './pages/videos/videos.component';
     HeaderTitleComponent,
     PhotosComponent,
     GalleryCardComponent,
-    BioCardComponent,
+    BioCardOneComponent,
     BioPhotoCardComponent,
     BioCardTwoComponent,
     BioCardThreeComponent,
-    VideosComponent
+    VideosComponent,
+    MailDialogComponent
   ],
   imports: [
     BrowserModule,
@@ -64,6 +66,8 @@ import { VideosComponent } from './pages/videos/videos.component';
     ])
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
+  entryComponents: [MailDialogComponent]
 })
 export class AppModule { }

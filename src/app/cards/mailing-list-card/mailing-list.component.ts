@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { FormControl, FormGroupDirective, NgForm, Validators } from '@angular/forms';
 import { ErrorStateMatcher } from '@angular/material/core';
+import { MatDialog } from '@angular/material/dialog';
+import { MailDialogComponent } from 'src/app/dialogs/mail-dialog/mail-dialog.component';
 
 /** Error when invalid control is dirty, touched, or submitted. */
 export class MyErrorStateMatcher implements ErrorStateMatcher {
@@ -17,6 +19,20 @@ export class MyErrorStateMatcher implements ErrorStateMatcher {
   styleUrls: ['./mailing-list.component.scss'],
 })
 export class MailingListComponent {
+  name: string;
+  color: string;
+  constructor(public dialog: MatDialog) { }
+
+  openDialog(): void {
+    const dialogRef = this.dialog.open(MailDialogComponent, {
+      width: '250px',
+    });
+
+    dialogRef.afterClosed().subscribe(res => {
+      this.color = res;
+    });
+  }
+
   emailFormControl = new FormControl('', [
     Validators.required,
     Validators.email,
@@ -24,7 +40,6 @@ export class MailingListComponent {
 
   matcher = new MyErrorStateMatcher();
 }
-
 
 
 
