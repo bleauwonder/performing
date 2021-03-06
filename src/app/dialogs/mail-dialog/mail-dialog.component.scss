@@ -1,0 +1,35 @@
+
+::ng-deep .mat-dialog-container {
+    height: 200px;
+    max-width: unset !important;
+    width: 300px;
+    text-align: center;
+    background-image: linear-gradient(0deg, rgba(0, 208, 239, 1) 10%, rgba(0, 180, 211, 1) 20%, rgba(0, 153, 183, 1) 30%, rgba(0, 127, 156, 1) 40%, rgba(0, 101, 130, 1) 50%, rgba(0, 77, 105, 1) 60%, rgba(0, 53, 80, 1) 70%, rgba(0, 34, 57, 1) 80%, rgba(0, 2, 36, 1) 90%, rgba(0, 0, 11, 1) 100%);
+
+    .mat-dialog-title {
+        font-family: 'Nothing You Could Do', cursive !important;
+    }
+}
+  
+.mat-button {
+    background-image: linear-gradient(to right, #2BC0E4 0%, #EAECC6  51%, #2BC0E4  100%)}
+.mat-button {
+    margin: 10px 10px 10px 40px;
+    padding: 10px 35px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.mat-button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+  
