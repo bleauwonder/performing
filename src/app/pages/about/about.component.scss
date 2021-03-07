@@ -1,3 +1,12 @@
+.space {
+    height: 100px;
+    width: 100px;
+    @media only screen and (min-width: 800px) {
+        height: 120px;
+        width: 200px;
+    }
+}
+
 .about {
     background-image: url(/assets/img/lillianIceCream.jpg);
     margin-top: -70px;

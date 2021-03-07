@@ -27,6 +27,7 @@ import { BioCardTwoComponent } from './cards/bio-card-two/bio-card-two.component
 import { BioCardThreeComponent } from './cards/bio-card-three/bio-card-three.component';
 import { VideosComponent } from './pages/videos/videos.component';
 import { MailDialogComponent } from './dialogs/mail-dialog/mail-dialog.component';
+import { BioCardHeaderComponent } from './cards/bio-card-header/bio-card-header.component';
 
 
 @NgModule({
@@ -51,7 +52,8 @@ import { MailDialogComponent } from './dialogs/mail-dialog/mail-dialog.component
     BioCardTwoComponent,
     BioCardThreeComponent,
     VideosComponent,
-    MailDialogComponent
+    MailDialogComponent,
+    BioCardHeaderComponent
   ],
   imports: [
     BrowserModule,

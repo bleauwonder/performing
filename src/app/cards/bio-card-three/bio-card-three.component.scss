@@ -1,8 +1,18 @@
 .bio-three {
     background: rgba(189, 195, 199, 0.8);
-    width: 600px;
-    margin: 20px 100px auto;
     padding: 30px;
+    margin: 20px auto 10px auto;
+    width: 280px;
+    height: 100px;
+    @media only screen and (min-width: 500px) {
+        width: 450px;
+        height: 60px;
+    }
+    @media only screen and (min-width: 800px) {
+        width: 400px;
+        height: 80px;
+        margin: 20px 100px auto;
+    }
     h1 {
         color: black;
         font-family: 'Nothing You Could Do', cursive;
