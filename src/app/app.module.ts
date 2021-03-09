@@ -5,6 +5,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material';
 import { AppRoutingModule } from './app-routing.module';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
@@ -28,6 +29,7 @@ import { BioCardThreeComponent } from './cards/bio-card-three/bio-card-three.com
 import { VideosComponent } from './pages/videos/videos.component';
 import { MailDialogComponent } from './dialogs/mail-dialog/mail-dialog.component';
 import { BioCardHeaderComponent } from './cards/bio-card-header/bio-card-header.component';
+import { VideoCarouselComponent } from './cards/video-carousel/video-carousel.component';
 
 
 @NgModule({
@@ -53,7 +55,8 @@ import { BioCardHeaderComponent } from './cards/bio-card-header/bio-card-header.
     BioCardThreeComponent,
     VideosComponent,
     MailDialogComponent,
-    BioCardHeaderComponent
+    BioCardHeaderComponent,
+    VideoCarouselComponent
   ],
   imports: [
     BrowserModule,
@@ -62,6 +65,7 @@ import { BioCardHeaderComponent } from './cards/bio-card-header/bio-card-header.
     MaterialModule,
     ReactiveFormsModule,
     FormsModule,
+    NgbModule,
     RouterModule.forRoot([
       { path: 'home', component: HomeComponent },
       { path: '', redirectTo: '/home', pathMatch: 'full' }
