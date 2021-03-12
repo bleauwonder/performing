@@ -3,14 +3,14 @@
     padding: 30px;
     margin: 20px auto 10px auto;
     width: 280px;
-    height: 100px;
+    height: 200px;
     @media only screen and (min-width: 500px) {
         width: 450px;
-        height: 60px;
+        height: 140px;
     }
     @media only screen and (min-width: 800px) {
         width: 400px;
-        height: 80px;
+        height: 155px;
         margin: 20px 100px auto;
     }
     h1 {

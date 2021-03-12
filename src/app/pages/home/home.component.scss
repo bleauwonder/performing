@@ -3,10 +3,11 @@
     width: 200px;
 }
 
-.home {
+.jarallax {
     background-image: url(/assets/bg/fromTheTrain.jpg);
+    background-attachment: fixed; 
+    height: 2000px;
     margin-top: -70px;
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }

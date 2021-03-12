@@ -4,10 +4,15 @@
 }
 
 ::ng-deep .mat-menu-panel {
-  height: 1200px;
+  height: 600px;
   max-width: unset !important;
-  width: 800px;
-
+  width: 100%;
+  @media only screen and (min-width: 500px) {
+    width: 500px;
+  }
+  @media only screen and (min-width: 800px) {
+    width: 800px;
+  }
   background-image: linear-gradient(0deg, rgba(0, 208, 239, 1) 10%, rgba(0, 180, 211, 1) 20%, rgba(0, 153, 183, 1) 30%, rgba(0, 127, 156, 1) 40%, rgba(0, 101, 130, 1) 50%, rgba(0, 77, 105, 1) 60%, rgba(0, 53, 80, 1) 70%, rgba(0, 34, 57, 1) 80%, rgba(0, 2, 36, 1) 90%, rgba(0, 0, 11, 1) 100%);
 }
 

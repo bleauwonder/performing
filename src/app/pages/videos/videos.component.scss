@@ -3,10 +3,12 @@
     width: 200px;
 }
 
-.video {
+.jarallax {
     background-image: url(/assets/bg/derailFromTrain.jpg);
+    background-attachment: fixed; 
+    height: 1200px;
     margin-top: -70px;
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
