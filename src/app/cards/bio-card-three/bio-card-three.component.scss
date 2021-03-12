@@ -3,19 +3,25 @@
     padding: 30px;
     margin: 20px auto 10px auto;
     width: 280px;
-    height: 200px;
+    height: 220px;
     @media only screen and (min-width: 500px) {
         width: 450px;
-        height: 140px;
+        height: 220px;
     }
     @media only screen and (min-width: 800px) {
-        width: 400px;
-        height: 155px;
+        width: 600px;
+        height: 200px;
         margin: 20px 100px auto;
     }
-    h1 {
+    h5 {
         color: black;
-        font-family: 'Nothing You Could Do', cursive;
-        font-size: 36px !important;
+        font-size: 14px;
+        @media only screen and (min-width: 500px) {
+            font-size: 18px;
+        }
+        @media only screen and (min-width: 900px) {
+            font-size: 20px;
+        }
+        line-height: 1.5;
     }
 }

@@ -5,8 +5,10 @@
 
 .jarallax {
     background-image: url(/assets/bg/MtCamera.jpg);
-    background-attachment: fixed; 
-    height: 1400px;
+    background-attachment: fixed;
+    @media only screen and (min-width: 500px) {
+        height: 1400px;
+    }
     margin-top: -70px;
     background-repeat: no-repeat;
     background-size: cover;
