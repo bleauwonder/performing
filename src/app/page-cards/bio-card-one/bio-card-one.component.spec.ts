@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BioCardComponent } from './bio-card.component';
+import { BioCardOneComponent } from './bio-card-one.component';
 
 describe('BioCardComponent', () => {
-  let component: BioCardComponent;
-  let fixture: ComponentFixture<BioCardComponent>;
+  let component: BioCardOneComponent;
+  let fixture: ComponentFixture<BioCardOneComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ BioCardComponent ]
+      declarations: [ BioCardOneComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(BioCardComponent);
+    fixture = TestBed.createComponent(BioCardOneComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
