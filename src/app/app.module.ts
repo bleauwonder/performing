@@ -30,7 +30,7 @@ import { VideosComponent } from './pages/videos/videos.component';
 import { MailDialogComponent } from './dialogs/mail-dialog/mail-dialog.component';
 import { BioCardHeaderComponent } from './page-cards/bio-card-header/bio-card-header.component';
 import { VideoCarouselComponent } from './page-cards/video-carousel/video-carousel.component';
-import { ContactPageCardComponent } from './contact-page-card/contact-page-card.component';
+import { ContactPageCardComponent } from './page-cards/contact-page-card/contact-page-card.component';
 
 
 @NgModule({

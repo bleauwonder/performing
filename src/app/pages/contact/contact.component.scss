@@ -1,0 +1,17 @@
+.space {
+    height: 100px;
+    width: 100px;
+    @media only screen and (min-width: 800px) {
+        height: 120px;
+        width: 200px;
+    }
+}
+
+.jarallax {
+    background-image: url(/assets/bg/motherAndLillian.jpg);
+    background-attachment: fixed; 
+    height: 1400px;
+    margin-top: -70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
