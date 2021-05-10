@@ -1,40 +1,47 @@
-<div class="row">
-  <div class="gallery">
-    <figure class="gallery__item gallery__item--1">
-      <iframe
-        class="gallery__video"
-        src="https://www.youtube.com/embed/x5XEz2-oSyQ"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-    </figure>
-    <figure class="gallery__item gallery__item--2">
-      <iframe
-        class="gallery__video"
-        src="https://www.youtube.com/embed/qEjZ4SmjX4k"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-    </figure>
-    <figure class="gallery__item gallery__item--3">
-      <iframe
-        class="gallery__video"
-        src="https://www.youtube.com/embed/ahbVybVSu4c"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-    </figure>
-    <figure class="gallery__item gallery__item--4">
-      <iframe
-        class="gallery__video"
-        src="https://www.youtube.com/embed/wgCv4J2SFqY"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-    </figure>
-  </div>
+<div class="container-fluid">
+  <ngb-carousel [interval]="5000">
+    <ng-template ngbSlide>
+      <div class="wrapper">
+        <iframe
+          src="https://www.youtube.com/embed/x5XEz2-oSyQ"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </ng-template>
+
+    <ng-template ngbSlide>
+      <div class="wrapper">
+        <iframe
+          src="https://www.youtube.com/embed/qEjZ4SmjX4k"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </ng-template>
+
+    <ng-template ngbSlide>
+      <div class="wrapper">
+        <iframe
+          src="https://www.youtube.com/embed/ahbVybVSu4c"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </ng-template>
+
+    <ng-template ngbSlide>
+      <div class="wrapper">
+        <iframe
+          src="https://www.youtube.com/embed/wgCv4J2SFqY"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </ng-template>
+  </ngb-carousel>
 </div>

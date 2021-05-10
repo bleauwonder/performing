@@ -31,7 +31,7 @@ import { MailDialogComponent } from './dialogs/mail-dialog/mail-dialog.component
 import { BioCardHeaderComponent } from './page-cards/bio-card-header/bio-card-header.component';
 import { VideoCarouselComponent } from './page-cards/video-carousel/video-carousel.component';
 import { ContactPageCardComponent } from './page-cards/contact-page-card/contact-page-card.component';
-
+import { VideoGalleryComponent } from './page-cards/video-gallery/video-gallery.component';
 
 @NgModule({
   declarations: [
@@ -58,7 +58,8 @@ import { ContactPageCardComponent } from './page-cards/contact-page-card/contact
     MailDialogComponent,
     BioCardHeaderComponent,
     VideoCarouselComponent,
-    ContactPageCardComponent
+    ContactPageCardComponent,
+    VideoGalleryComponent,
   ],
   imports: [
     BrowserModule,
@@ -70,12 +71,12 @@ import { ContactPageCardComponent } from './page-cards/contact-page-card/contact
     NgbModule,
     RouterModule.forRoot([
       { path: 'home', component: HomeComponent },
-      { path: '', redirectTo: '/home', pathMatch: 'full' }
-    ])
+      { path: '', redirectTo: '/home', pathMatch: 'full' },
+    ]),
   ],
   providers: [],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
-  entryComponents: [MailDialogComponent]
+  entryComponents: [MailDialogComponent],
 })
-export class AppModule { }
+export class AppModule {}
