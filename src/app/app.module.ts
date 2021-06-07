@@ -31,6 +31,8 @@ import { MailDialogComponent } from './dialogs/mail-dialog/mail-dialog.component
 import { BioCardHeaderComponent } from './page-cards/bio-card-header/bio-card-header.component';
 import { VideoCarouselComponent } from './page-cards/video-carousel/video-carousel.component';
 import { ContactPageCardComponent } from './page-cards/contact-page-card/contact-page-card.component';
+import { BioCardFourComponent } from './page-cards/bio-card-four/bio-card-four.component';
+import { BioCardFiveComponent } from './page-cards/bio-card-five/bio-card-five.component';
 
 
 @NgModule({
@@ -58,7 +60,9 @@ import { ContactPageCardComponent } from './page-cards/contact-page-card/contact
     MailDialogComponent,
     BioCardHeaderComponent,
     VideoCarouselComponent,
-    ContactPageCardComponent
+    ContactPageCardComponent,
+    BioCardFourComponent,
+    BioCardFiveComponent
   ],
   imports: [
     BrowserModule,
