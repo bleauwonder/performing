@@ -33,6 +33,8 @@ import { VideoCarouselComponent } from './page-cards/video-carousel/video-carous
 import { ContactPageCardComponent } from './page-cards/contact-page-card/contact-page-card.component';
 import { BioCardFourComponent } from './page-cards/bio-card-four/bio-card-four.component';
 import { BioCardFiveComponent } from './page-cards/bio-card-five/bio-card-five.component';
+import { EpkComponent } from './pages/epk/epk.component';
+import { BioCardComponent } from './bio-card/bio-card.component';
 
 
 @NgModule({
@@ -62,7 +64,9 @@ import { BioCardFiveComponent } from './page-cards/bio-card-five/bio-card-five.c
     VideoCarouselComponent,
     ContactPageCardComponent,
     BioCardFourComponent,
-    BioCardFiveComponent
+    BioCardFiveComponent,
+    EpkComponent,
+    BioCardComponent
   ],
   imports: [
     BrowserModule,

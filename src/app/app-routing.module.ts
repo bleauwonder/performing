@@ -5,6 +5,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { PhotosComponent } from './pages/photos/photos.component';
 import { VideosComponent } from './pages/videos/videos.component';
+import { EpkComponent } from './pages/epk/epk.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full'},
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'videos', component: VideosComponent },
   { path: 'about', component: AboutComponent },
   { path: 'contact', component: ContactComponent },
+  { path: 'epk', component: EpkComponent },
   { path: '**', redirectTo: '/' }
 ];
 
