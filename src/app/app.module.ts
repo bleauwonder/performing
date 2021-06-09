@@ -34,7 +34,9 @@ import { ContactPageCardComponent } from './page-cards/contact-page-card/contact
 import { BioCardFourComponent } from './page-cards/bio-card-four/bio-card-four.component';
 import { BioCardFiveComponent } from './page-cards/bio-card-five/bio-card-five.component';
 import { EpkComponent } from './pages/epk/epk.component';
-import { BioCardComponent } from './bio-card/bio-card.component';
+import { BioCardComponent } from './page-cards/bio-card/bio-card.component';
+import { EpkHeaderComponent } from './page-cards/epk-header/epk-header.component';
+import { EpkCardComponent } from './home-cards/epk-card/epk-card.component';
 
 
 @NgModule({
@@ -66,7 +68,9 @@ import { BioCardComponent } from './bio-card/bio-card.component';
     BioCardFourComponent,
     BioCardFiveComponent,
     EpkComponent,
-    BioCardComponent
+    BioCardComponent,
+    EpkHeaderComponent,
+    EpkCardComponent
   ],
   imports: [
     BrowserModule,
