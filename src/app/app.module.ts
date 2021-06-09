@@ -37,6 +37,7 @@ import { EpkComponent } from './pages/epk/epk.component';
 import { BioCardComponent } from './page-cards/bio-card/bio-card.component';
 import { EpkHeaderComponent } from './page-cards/epk-header/epk-header.component';
 import { EpkCardComponent } from './home-cards/epk-card/epk-card.component';
+import { EpkPhotoCardComponent } from './page-cards/epk-photo-card/epk-photo-card.component';
 
 
 @NgModule({
@@ -70,7 +71,8 @@ import { EpkCardComponent } from './home-cards/epk-card/epk-card.component';
     EpkComponent,
     BioCardComponent,
     EpkHeaderComponent,
-    EpkCardComponent
+    EpkCardComponent,
+    EpkPhotoCardComponent
   ],
   imports: [
     BrowserModule,
