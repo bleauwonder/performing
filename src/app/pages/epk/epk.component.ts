@@ -1,4 +1,5 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
+import { Photos } from '../interfaces/epk-photo-card';
 import 'jarallax';
 declare var jarallax: any;
 
@@ -8,6 +9,7 @@ declare var jarallax: any;
   styleUrls: ['./epk.component.scss']
 })
 export class EpkComponent implements OnInit, AfterViewInit {
+  imgs = Photos;
 
   constructor() { }
   ngOnInit() {
