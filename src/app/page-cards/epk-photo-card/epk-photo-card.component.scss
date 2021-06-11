@@ -1,40 +1,27 @@
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 0 4px;
-    margin: 0 auto;
-    width: 75%;
-    background: rgba(189, 195, 199, 0.8);
+.gallery {
+  width: 280px;
+  height: 120px;
+  margin: 0 auto;
+  @media only screen and (min-width: 500px) {
+      width: 400px;
+      height: 100px;
   }
-  
-  /* Create four equal columns that sits next to each other */
-  .column {
-    flex: 25%;
-    max-width: 33%;
-    padding: 0 4px;
-    margin: 10px;
+  @media only screen and (min-width: 800px) {
+    width: 300px;
+    height: 200px;
+    margin: 20px 100px auto;
   }
-  
-  .column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-  }
-  
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 767px) {
-    .column {
-      flex: 50%;
-      max-width: 50%;
-    }
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      flex: 100%;
-      max-width: 100%;
-    }
-  }
+}
 
+.epk-photo {
+  opacity: .8;
+  width: 70%;
+  margin-left: 15%;
+  @media only screen and (min-width: 500px) {
+      width: 80%;
+  }
+  @media only screen and (min-width: 800px) {
+      width: 100%;
+      margin-left: 60%;
+  }
+}

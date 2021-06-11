@@ -9,7 +9,7 @@ declare var jarallax: any;
   styleUrls: ['./epk.component.scss']
 })
 export class EpkComponent implements OnInit, AfterViewInit {
-  imgs = Photos;
+  photos = Photos;
 
   constructor() { }
   ngOnInit() {

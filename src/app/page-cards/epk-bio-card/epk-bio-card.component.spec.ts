@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BioCardComponent } from './bio-card.component';
+import { BioCardComponent } from './epk-bio-card.component';
 
 describe('BioCardComponent', () => {
   let component: BioCardComponent;

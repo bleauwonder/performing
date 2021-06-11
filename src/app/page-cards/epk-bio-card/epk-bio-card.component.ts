@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-bio-card',
-  templateUrl: './bio-card.component.html',
-  styleUrls: ['./bio-card.component.scss']
+  selector: 'app-epk-bio-card',
+  templateUrl: './epk-bio-card.component.html',
+  styleUrls: ['./epk-bio-card.component.scss']
 })
 export class BioCardComponent implements OnInit {
 

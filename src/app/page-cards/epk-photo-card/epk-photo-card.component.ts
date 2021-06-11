@@ -6,7 +6,7 @@ import { PhotoOptions } from '../../pages/interfaces/epk-photo-card';
   styleUrls: ['./epk-photo-card.component.scss']
 })
 export class EpkPhotoCardComponent implements OnInit {
-  @Input() imgs: PhotoOptions;
+  @Input() photos: PhotoOptions;
 
   constructor() { }
 
