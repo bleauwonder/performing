@@ -40,6 +40,7 @@ import { EpkCardComponent } from './home-cards/epk-card/epk-card.component';
 import { EpkPhotoCardComponent } from './page-cards/epk-photo-card/epk-photo-card.component';
 import { EpkPhotoCardTwoComponent } from './page-cards/epk-photo-card-two/epk-photo-card-two.component';
 import { EpkVideoCardComponent } from './page-cards/epk-video-card/epk-video-card.component';
+import { EpkMusicCardComponent } from './epk-music-card/epk-music-card.component';
 
 
 @NgModule({
@@ -76,7 +77,8 @@ import { EpkVideoCardComponent } from './page-cards/epk-video-card/epk-video-car
     EpkCardComponent,
     EpkPhotoCardComponent,
     EpkPhotoCardTwoComponent,
-    EpkVideoCardComponent
+    EpkVideoCardComponent,
+    EpkMusicCardComponent
   ],
   imports: [
     BrowserModule,
