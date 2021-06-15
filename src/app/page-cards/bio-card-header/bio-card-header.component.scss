@@ -2,13 +2,16 @@
     display: flex;
     flex-direction: row;
     background: rgba(189, 195, 199, 0.8);
-    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 10px 10px 5px rgb(140, 143, 145, 0.8);
+    padding: 20px;
     margin: 20px auto 20px auto;
-    width: 220px;
+    width: 240px;
     height: 100px;
     @media only screen and (min-width: 500px) {
         width: 260px;
         height: 150px;
+        padding: 25px;
     }
     @media only screen and (min-width: 800px) {
       width: 400px;

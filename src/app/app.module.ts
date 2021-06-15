@@ -31,6 +31,16 @@ import { MailDialogComponent } from './dialogs/mail-dialog/mail-dialog.component
 import { BioCardHeaderComponent } from './page-cards/bio-card-header/bio-card-header.component';
 import { VideoCarouselComponent } from './page-cards/video-carousel/video-carousel.component';
 import { ContactPageCardComponent } from './page-cards/contact-page-card/contact-page-card.component';
+import { BioCardFourComponent } from './page-cards/bio-card-four/bio-card-four.component';
+import { BioCardFiveComponent } from './page-cards/bio-card-five/bio-card-five.component';
+import { EpkComponent } from './pages/epk/epk.component';
+import { BioCardComponent } from './page-cards/epk-bio-card/epk-bio-card.component';
+import { EpkHeaderComponent } from './page-cards/epk-header/epk-header.component';
+import { EpkCardComponent } from './home-cards/epk-card/epk-card.component';
+import { EpkPhotoCardComponent } from './page-cards/epk-photo-card/epk-photo-card.component';
+import { EpkPhotoCardTwoComponent } from './page-cards/epk-photo-card-two/epk-photo-card-two.component';
+import { EpkVideoCardComponent } from './page-cards/epk-video-card/epk-video-card.component';
+import { EpkMusicCardComponent } from './page-cards/epk-music-card/epk-music-card.component';
 import { VideoGalleryComponent } from './page-cards/video-gallery/video-gallery.component';
 
 @NgModule({
@@ -59,6 +69,16 @@ import { VideoGalleryComponent } from './page-cards/video-gallery/video-gallery.
     BioCardHeaderComponent,
     VideoCarouselComponent,
     ContactPageCardComponent,
+    BioCardFourComponent,
+    BioCardFiveComponent,
+    EpkComponent,
+    BioCardComponent,
+    EpkHeaderComponent,
+    EpkCardComponent,
+    EpkPhotoCardComponent,
+    EpkPhotoCardTwoComponent,
+    EpkVideoCardComponent,
+    EpkMusicCardComponent,
     VideoGalleryComponent,
   ],
   imports: [

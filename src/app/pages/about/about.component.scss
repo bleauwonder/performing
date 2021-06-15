@@ -8,9 +8,12 @@
 }
 
 .jarallax {
-    background-image: url(/assets/bg/lillianIceCream.jpg);
+    background-image: url(/assets/bg/lillian-ice-cream.png);
     background-attachment: fixed; 
-    height: 1600px;
+    height: 2700px;
+    @media only screen and (min-width: 800px) {
+        height: 2800px;
+    }
     margin-top: -70px;
     background-repeat: no-repeat;
     background-size: cover;

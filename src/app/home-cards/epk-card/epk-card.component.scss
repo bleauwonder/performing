@@ -1,0 +1,69 @@
+.epk-card {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    border-radius: 6px;
+    box-shadow: 10px 10px 5px rgb(140, 143, 145, 0.8);
+    margin: 40px auto;
+    width: 275px;
+    height: 200px;
+    @media only screen and (min-width: 500px) {
+      width: 400px;
+      height: 200px;
+      padding: 50px;
+    }
+    @media only screen and (min-width: 800px) {
+      width: 500px;
+      height: 200px;
+      margin: 40px;
+    }
+  }
+  
+  .mat-card {
+    background: rgba(189, 195, 199, 0.8);
+    color: black;
+    font-family: 'Nothing You Could Do', cursive;
+    .mat-card-header {
+      width: 35%;
+    .mat-card-title {
+      font-size: 20px;
+      @media only screen and (min-width: 800px) {
+        font-size: 36px !important;
+      }
+      line-height: 1;
+    }
+  }
+  }
+  
+  .logo {
+    width: 25%;
+  }
+    
+  .mat-card-actions {
+    margin: 10px 10px 32px 10px !important;
+  }
+  
+  .mat-button {background-image: linear-gradient(to right, #2BC0E4 0%, #EAECC6  51%, #2BC0E4  100%)}
+  .mat-button {
+     margin: 10px;
+     padding: 10px 15px;
+     @media only screen and (min-width: 500px) {
+      padding: 10px 35px;
+     }
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;            
+     box-shadow: 0 0 20px #eee;
+     border-radius: 10px;
+     display: block;
+   }
+  
+   .mat-button:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+   }
+  
