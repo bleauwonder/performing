@@ -41,7 +41,7 @@ import { EpkPhotoCardComponent } from './page-cards/epk-photo-card/epk-photo-car
 import { EpkPhotoCardTwoComponent } from './page-cards/epk-photo-card-two/epk-photo-card-two.component';
 import { EpkVideoCardComponent } from './page-cards/epk-video-card/epk-video-card.component';
 import { EpkMusicCardComponent } from './page-cards/epk-music-card/epk-music-card.component';
-
+import { VideoGalleryComponent } from './page-cards/video-gallery/video-gallery.component';
 
 @NgModule({
   declarations: [
@@ -78,7 +78,8 @@ import { EpkMusicCardComponent } from './page-cards/epk-music-card/epk-music-car
     EpkPhotoCardComponent,
     EpkPhotoCardTwoComponent,
     EpkVideoCardComponent,
-    EpkMusicCardComponent
+    EpkMusicCardComponent,
+    VideoGalleryComponent,
   ],
   imports: [
     BrowserModule,
@@ -90,12 +91,12 @@ import { EpkMusicCardComponent } from './page-cards/epk-music-card/epk-music-car
     NgbModule,
     RouterModule.forRoot([
       { path: 'home', component: HomeComponent },
-      { path: '', redirectTo: '/home', pathMatch: 'full' }
-    ])
+      { path: '', redirectTo: '/home', pathMatch: 'full' },
+    ]),
   ],
   providers: [],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
-  entryComponents: [MailDialogComponent]
+  entryComponents: [MailDialogComponent],
 })
-export class AppModule { }
+export class AppModule {}

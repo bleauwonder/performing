@@ -1,24 +1,23 @@
 .wrapper {
-    position: relative;
-    height: 0;
-    padding-top: 40%; /* Keep ratio for 900x500 images */
-  }
-  
-  .wrapper>iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%; 
-    height: 500px;
-  }
-
- .carousel-control-prev {
-    color: #00D0EF;
+  position: relative;
+  height: 0;
+  padding-top: 40%; /* Keep ratio for 900x500 images */
 }
 
-.carousel-control-next{
-  color: #00D0EF;
+.wrapper > iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 500px;
 }
-  
+
+.carousel-control-prev {
+  color: #00d0ef;
+}
+
+.carousel-control-next {
+  color: #00d0ef;
+}
