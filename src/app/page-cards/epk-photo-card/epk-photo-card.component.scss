@@ -1,37 +1,52 @@
 .gallery {
   display: flex;
-  flex-direction: row;
-  height: 175px;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 120px;
+  margin-bottom: 140px;
+  height: 170px;
   justify-content: center;
-  @media only screen and (min-width: 500px) {
-      width: 400px;
-      height: 100px;
+  @media only screen and (min-width: 400px) {
+    margin-bottom: 180px;
   }
-  @media only screen and (min-width: 800px) {
+  @media only screen and (min-width: 500px) {
+    flex-direction: row;
+    width: 400px;
+    height: 200px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  @media only screen and (min-width: 700px) {
+    width: 400px;
+    height: 250px;
+  }
+  @media only screen and (min-width: 920px) {
     width: 600px;
     height: 325px;
-    // margin-left: 45%;
+    margin-left: 30%;
   }
 }
 
 .epk-photo {
   opacity: .9;
+  margin: 0 auto;
+}
   .one {
-  width: 70%;
-    @media only screen and (min-width: 500px) {
-        width: 80%;
+  width: 40%;
+    @media only screen and (min-width: 700px) {
+        width: 45%;
     }
-    @media only screen and (min-width: 800px) {
-        width: 70%;
+    @media only screen and (min-width: 920px) {
+        width: 40%;
     }
   }
   .two {
-    width: 100%;
-    @media only screen and (min-width: 500px) {
-        width: 80%;
-    }
-    @media only screen and (min-width: 800px) {
-        width: 100%;
-    }
+    width: 75%;
+    @media only screen and (min-width: 700px) {
+      width: 88%;
   }
+  @media only screen and (min-width: 900px) {
+      width: 80%;
+  }
+  
 }

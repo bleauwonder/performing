@@ -1,7 +1,10 @@
 .header {
     padding: 20px;
     text-align: center;
-    height: 250px;
+    height: 150px;
+    @media only screen and (min-width: 900px) {
+      height: 250px;
+    }
     margin-top: -120px;
   }
   
@@ -21,6 +24,7 @@
     background: rgba(189, 195, 199, 0.9);
     box-shadow: 10px 10px 5px rgb(140, 143, 145, 0.8);
     margin-top: 170px;
+    margin: 0 auto;
     animation: glitch 5s 5s infinite;
     width: 40%;
   }
@@ -124,6 +128,7 @@
     padding-top: 10px;
     left: 5%;
     text-align: center;
+    margin: 0 auto;
     font-family: 'Special Elite', cursive;
     background: rgba(189, 195, 199, 0.8);
     box-shadow: 10px 10px 5px rgb(140, 143, 145, 0.8);
@@ -135,6 +140,7 @@
     }
     @media only screen and (min-width: 800px) {
       font-size: 20px;
+      left: 10%;
     }
     color: #2288c6;
     text-transform: uppercase;

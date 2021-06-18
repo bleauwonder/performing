@@ -3,28 +3,24 @@
   flex-direction: column;
   height: 40%;
   width: 60%;
-  margin: 200px auto;
-
-    @media only screen and (min-width: 675px) {
+  margin: 0 auto;
+  margin-top: 20%;
+    @media only screen and (min-width: 650px) {
       flex-direction: row;
-        // width: 400px;
-        height: 15%;
+      height: 280px;
+      margin-top: 20%;
     }
-    @media only screen and (min-width: 800px) {
+    @media only screen and (min-width: 850px) {
       height: 350px;
       margin-left: 15%;
-      margin-top: 5%;
+      margin-top: 15%;
     }
   }
   
   .epk-photo {
     opacity: .9;
-    // width: 70%;
-    @media only screen and (max-width: 500px) {
-        height: 50%;
-        width: 100%;
+    @media only screen and (min-width: 650px) {
+        height: 100%;
+        width: 50%;
     }
-    // @media only screen and (min-width: 800px) {
-    //     width: 100%;
-    // }
   }
