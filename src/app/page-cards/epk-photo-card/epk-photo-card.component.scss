@@ -32,6 +32,8 @@
   margin: 0 auto;
 }
   .one {
+    display: flex;
+    flex-direction: column;
   width: 40%;
     @media only screen and (min-width: 700px) {
         width: 45%;
@@ -46,7 +48,7 @@
       width: 88%;
   }
   @media only screen and (min-width: 900px) {
-      width: 80%;
+      width: 75%;
   }
   
 }
