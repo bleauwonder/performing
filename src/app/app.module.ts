@@ -45,6 +45,7 @@ import { VideoGalleryComponent } from './page-cards/video-gallery/video-gallery.
 import { VideoCardComponent } from './page-cards/video-card/video-card.component';
 import { VideoCardTwoComponent } from './page-cards/video-card-two/video-card-two.component';
 import { EpkDlCardComponent } from './page-cards/epk-dl-card/epk-dl-card.component';
+import { EpkLogoDlCardComponent } from './page-cards/epk-logo-dl-card/epk-logo-dl-card.component';
 
 @NgModule({
   declarations: [
@@ -86,6 +87,7 @@ import { EpkDlCardComponent } from './page-cards/epk-dl-card/epk-dl-card.compone
     VideoCardComponent,
     VideoCardTwoComponent,
     EpkDlCardComponent,
+    EpkLogoDlCardComponent,
   ],
   imports: [
     BrowserModule,
