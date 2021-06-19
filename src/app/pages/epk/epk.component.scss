@@ -6,15 +6,15 @@
 .jarallax {
     background-image: url(/assets/bg/home-bg.png);
     background-attachment: fixed; 
-    height: 3000px;
+    height: 3500px;
     @media only screen and (min-width: 400px) {
-        height: 3200px;
+        height: 4000px;
     }
     @media only screen and (min-width: 550px) {
-        height: 3500px;
+        height: 4000px;
     }
     @media only screen and (min-width: 650px) {
-        height: 2500px;
+        height: 3000px;
     }
     margin-top: -70px;
     background-repeat: no-repeat;
