@@ -11,16 +11,31 @@
       margin-top: 20%;
     }
     @media only screen and (min-width: 850px) {
-      height: 350px;
+      height: 380px;
       margin-left: 15%;
-      margin-top: 15%;
+      margin-top: 10%;
     }
   }
   
-  .epk-photo {
-    opacity: .9;
-    @media only screen and (min-width: 650px) {
-        height: 100%;
-        width: 50%;
-    }
+.epk-photo {
+  opacity: .9;
+  @media only screen and (min-width: 650px) {
+    height: 100%;
+    width: 40%;
   }
+  @media only screen and (min-width: 1300px) {
+    height: 100%;
+    width: 35%;
+  }
+}
+
+.two {
+  @media only screen and (min-width: 650px) {
+    height: 100%;
+    width: 30%;
+  }
+  @media only screen and (min-width: 1300px) {
+    height: 100%;
+    width: 25%;
+  }
+}
