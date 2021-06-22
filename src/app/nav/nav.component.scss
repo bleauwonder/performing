@@ -1,12 +1,15 @@
 .toolbar {
   background-color: transparent;
   z-index: 100;
+  position: fixed;
+  position: -webkit-sticky;
+  top: 0;
 }
 
 ::ng-deep .mat-menu-panel {
   height: 600px;
   max-width: unset !important;
-  width: 100%;
+  width: 300px;
   @media only screen and (min-width: 500px) {
     width: 500px;
   }
@@ -52,12 +55,25 @@
   width: 60px
 }
 
-  .logo {
-      height: 90%;
-      width: 10%;
+.social-links {
+  margin: 5px 5px 5px 15px;
+  height: 30px;
+  width: 30px;
+  @media only screen and (min-width: 500px) {
+    height: 45px;
+    width: 45px;
   }
+  img {
+    margin: 0 5px;
+  }
+}
+
+.logo {
+  height: 90%;
+  width: 10%;
+}
   
-  .spacer {
-    flex: 1 1 auto;
-  }
+.spacer {
+  flex: 1 1 auto;
+}
   
