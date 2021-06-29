@@ -1,5 +1,8 @@
 .video {
-    margin: 50px 20px;
+    margin: 50px 20px 150px 20px;
+    @media only screen and (min-width: 950px) {
+      margin: 50px 20px;
+    }
 }
 
 .wrapper {
@@ -31,5 +34,11 @@
       left: 50px;
       height: 360px;
       width: 75%;
+    }
+    @media only screen and (min-width: 1200px) {
+      height: 450px;
+    }
+    @media only screen and (min-width: 1300px) {
+      height: 500px;
     }
   }

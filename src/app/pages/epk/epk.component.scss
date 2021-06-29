@@ -1,21 +1,28 @@
 .space {
-    height: 200px;
+    height: 300px;
     width: 200px;
 }
 
 .jarallax {
-    background-image: url(/assets/bg/home-bg.png);
+    background-image: url(/assets/bg/lake-elsinore.png);
     background-attachment: fixed; 
-    height: 3500px;
+    height: 5200px;
     @media only screen and (min-width: 400px) {
-        height: 4000px;
+        height: 5000px;
     }
-    @media only screen and (min-width: 550px) {
-        height: 4000px;
+    @media only screen and (min-width: 490px) {
+        height: 5400px;
     }
     @media only screen and (min-width: 650px) {
-        height: 3000px;
+        height: 4000px;
     }
+    @media only screen and (min-width: 1025px) {
+        height: 4500px;
+    }
+    @media only screen and (min-width: 1575px) {
+        height: 5000px;
+    }
+    
     margin-top: -70px;
     background-repeat: no-repeat;
     background-size: cover;

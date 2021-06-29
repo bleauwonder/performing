@@ -1,26 +1,69 @@
 .gallery {
   display: flex;
   flex-direction: column;
-  height: 35%;
+  height: 20%;
   width: 60%;
-  margin: 0 auto;
-  margin-top: 20%;
+  margin: 20% auto 5% auto;
+  @media only screen and (min-width: 400px) {
+    height: 25%;
+  }
+  @media only screen and (min-width: 450px) {
+    height: 26%;
+  }
+  @media only screen and (min-width: 490px) {
+    height: 28%;
+  }
+  @media only screen and (min-width: 490px) {
+    height: 30%;
+  }
+  @media only screen and (min-width: 580px) {
+    height: 32%;
+  }
+  @media only screen and (min-width: 600px) {
+    height: 24%;
+  }
     @media only screen and (min-width: 650px) {
       flex-direction: row;
-      height: 280px;
+      height: 230px;
       margin-top: 20%;
     }
     @media only screen and (min-width: 850px) {
+      height: 300px;
+      margin-left: 15%;
+      margin-top: 10%;
+    }
+    @media only screen and (min-width: 950px) {
       height: 350px;
       margin-left: 15%;
-      margin-top: 15%;
+      margin-top: 10%;
+    }
+    @media only screen and (min-width: 1450px) {
+      height: 400px;
+    }
+    @media only screen and (min-width: 1550px) {
+      height: 450px;
     }
   }
   
-  .epk-photo {
-    opacity: .9;
-    @media only screen and (min-width: 650px) {
-        height: 100%;
-        width: 50%;
-    }
+.epk-photo {
+  opacity: .9;
+  @media only screen and (min-width: 650px) {
+    height: 100%;
+    width: 40%;
   }
+  @media only screen and (min-width: 1300px) {
+    height: 100%;
+    width: 35%;
+  }
+}
+
+.two {
+  @media only screen and (min-width: 650px) {
+    height: 100%;
+    width: 30%;
+  }
+  @media only screen and (min-width: 1300px) {
+    height: 100%;
+    width: 25%;
+  }
+}

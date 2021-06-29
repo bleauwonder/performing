@@ -46,6 +46,7 @@ import { VideoCardComponent } from './page-cards/video-card/video-card.component
 import { VideoCardTwoComponent } from './page-cards/video-card-two/video-card-two.component';
 import { EpkDlCardComponent } from './page-cards/epk-dl-card/epk-dl-card.component';
 import { EpkLogoDlCardComponent } from './page-cards/epk-logo-dl-card/epk-logo-dl-card.component';
+import { EpkQuotesCardComponent } from './page-cards/epk-quotes-card/epk-quotes-card.component';
 
 @NgModule({
   declarations: [
@@ -88,6 +89,7 @@ import { EpkLogoDlCardComponent } from './page-cards/epk-logo-dl-card/epk-logo-d
     VideoCardTwoComponent,
     EpkDlCardComponent,
     EpkLogoDlCardComponent,
+    EpkQuotesCardComponent,
   ],
   imports: [
     BrowserModule,
