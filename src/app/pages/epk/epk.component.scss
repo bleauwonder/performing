@@ -6,20 +6,23 @@
 .jarallax {
     background-image: url(/assets/bg/lake-elsinore.png);
     background-attachment: fixed; 
-    height: 5200px;
-    @media only screen and (min-width: 400px) {
-        height: 5000px;
-    }
-    @media only screen and (min-width: 490px) {
-        height: 5400px;
-    }
+    height: 5450px;
+    // @media only screen and (min-width: 400px) {
+    //     height: 5400px;
+    // }
+    // @media only screen and (min-width: 490px) {
+    //     height: 5400px;
+    // }
     @media only screen and (min-width: 650px) {
         height: 4000px;
     }
-    @media only screen and (min-width: 1025px) {
+    @media only screen and (min-width: 750px) {
         height: 4500px;
     }
-    @media only screen and (min-width: 1575px) {
+    // @media only screen and (min-width: 1025px) {
+    //     height: 4500px;
+    // }
+    @media only screen and (min-width: 1450px) {
         height: 5000px;
     }
     
