@@ -1,4 +1,4 @@
-.contact-card {
+.merch-card {
     display: flex;
     align-items: center;
     align-content: center;
@@ -16,7 +16,7 @@
     @media only screen and (min-width: 800px) {
       width: 500px;
       height: 200px;
-      margin-left: 25%;
+      margin-left: 15%;
     }
   }
   
@@ -25,6 +25,7 @@
     color: black;
     font-family: 'Nothing You Could Do', cursive;
     .mat-card-header {
+      width: 35%;
     .mat-card-title {
       font-size: 20px;
       @media only screen and (min-width: 800px) {
@@ -34,6 +35,10 @@
     }
   }
   }
+  
+  .logo {
+    width: 25%;
+  }
     
   .mat-card-actions {
     margin: 10px 10px 32px 10px !important;
@@ -42,7 +47,10 @@
   .mat-button {background-image: linear-gradient(to right, #2BC0E4 0%, #EAECC6  51%, #2BC0E4  100%)}
   .mat-button {
      margin: 10px;
-     padding: 10px 35px;
+     padding: 10px 15px;
+     @media only screen and (min-width: 500px) {
+      padding: 10px 35px;
+     }
      text-align: center;
      text-transform: uppercase;
      transition: 0.5s;
@@ -58,6 +66,4 @@
      color: #fff;
      text-decoration: none;
    }
-  
-  
   
