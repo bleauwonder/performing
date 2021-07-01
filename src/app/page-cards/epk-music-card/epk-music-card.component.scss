@@ -3,3 +3,11 @@
     width: 70%;
     margin: 0 auto;
 }
+
+iframe {
+    width: 100%;
+    @media only screen and (min-width: 900px) {
+        width: 50%;
+        margin-left: 20%;
+    }
+}
