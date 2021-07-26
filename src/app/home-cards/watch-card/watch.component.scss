@@ -1,87 +1,66 @@
 .watch-card {
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: space-around;
-    border-radius: 6px;
-    box-shadow: 10px 10px 5px rgb(140, 143, 145, 0.8);
-    width: 275px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  border-radius: 6px;
+  box-shadow: 10px 10px 5px rgb(140, 143, 145, 0.8);
+  margin: 40px auto;
+  padding: 50px;
+  width: 275px;
+  height: 200px;
+  @media only screen and (min-width: 500px) {
+    width: 400px;
     height: 200px;
-    margin: 0 auto;
-    @media only screen and (min-width: 500px) {
-      width: 400px;
-      height: 200px;
-    }
-    @media only screen and (min-width: 800px) {
-      width: 600px;
-      height: 300px;
-      margin-left: 25%;
-    }
-    @media only screen and (min-width: 1100px) {
-      margin-left: 40%;
+  }
+  @media only screen and (min-width: 800px) {
+    width: 500px;
+    height: 200px;
+    margin-left: 40%;
+  }
+}
+
+.mat-card {
+  background: rgba(189, 195, 199, 0.8);
+  color: rgb(81, 82, 83);
+  font-family: 'Special Elite', cursive;
+  font-style: italic;
+  .mat-card-header {
+    .mat-card-title {
+      font-size: 20px;
+      @media only screen and (min-width: 800px) {
+        font-size: 32px !important;
+      }
+      line-height: 1;
     }
   }
-  
-  .mat-card {
-    background: rgba(189, 195, 199, 0.8);
-    color: black;
-    font-family: 'Nothing You Could Do', cursive;
-    padding-left: 0;
-    @media only screen and (min-width: 500px) {
-      padding-left: 16px;
-    }
-    .mat-card-header {
-        flex-direction: column;
-        align-items: center;
-        .mat-card-title {
-            justify-content: center;
-            text-align: center;
-            font-size: 20px;
-            @media only screen and (min-width: 800px) {
-              font-size: 36px !important;
-            }
-            line-height: 1;
-        }
-        .mat-card-actions {
-            margin-bottom: 0;
-            margin-left: 10px;
-          }
-    }
-  }
-  
-  .video {
-    width: 100px;
-    height: 100px;
-    @media only screen and (min-width: 800px) {
-      width: 200px;
-      height: 150px;
-    }
-    @media only screen and (min-width: 800px) {
-      width: 400px;
-      height: 200px;
-    }
-  }
-  
-  .mat-button {background-image: linear-gradient(to right, #2BC0E4 0%, #EAECC6  51%, #2BC0E4  100%)}
-  .mat-button {
-     margin: 20px;
-     padding: 10px 15px;
-     @media only screen and (min-width: 500px) {
-      padding: 10px 35px;
-     }
-     text-align: center;
-     text-transform: uppercase;
-     transition: 0.5s;
-     background-size: 200% auto;
-     color: white;            
-     box-shadow: 0 0 20px #eee;
-     border-radius: 10px;
-     display: block;
-   }
-  
-   .mat-button:hover {
-     background-position: right center; /* change the direction of the change here */
-     color: #fff;
-     text-decoration: none;
-   }
-  
+}  
+
+.image {
+  width: 35%;
+}
+
+.mat-card-actions {
+  margin: 10px 10px 26px 10px !important;
+}
+
+.mat-button {background-image: linear-gradient(to right, #2BC0E4 0%, #EAECC6  51%, #2BC0E4  100%)}
+.mat-button {
+   margin: 10px;
+   padding: 10px 15px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;         
+   font-family: 'Special Elite', cursive;     
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .mat-button:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }

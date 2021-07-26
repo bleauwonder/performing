@@ -22,13 +22,14 @@
   
   .mat-card {
     background: rgba(189, 195, 199, 0.8);
-    color: black;
-    font-family: 'Nothing You Could Do', cursive;
+    color: rgb(81, 82, 83);
+    font-family: 'Special Elite', cursive;
+    font-style: italic;
     .mat-card-header {
     .mat-card-title {
       font-size: 20px;
       @media only screen and (min-width: 800px) {
-        font-size: 36px !important;
+        font-size: 32px !important;
       }
       line-height: 1;
     }
@@ -47,7 +48,8 @@
      text-transform: uppercase;
      transition: 0.5s;
      background-size: 200% auto;
-     color: white;            
+     color: white;      
+     font-family: 'Special Elite', cursive;      
      box-shadow: 0 0 20px #eee;
      border-radius: 10px;
      display: block;
