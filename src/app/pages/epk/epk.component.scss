@@ -1,12 +1,13 @@
 .space {
     height: 300px;
     width: 200px;
+    color: transparent;
 }
 
 .jarallax {
     background-image: url(/assets/bg/lake-elsinore.png);
     background-attachment: fixed; 
-    height: 5450px;
+    height: 5200px;
     @media only screen and (min-width: 650px) {
         height: 4000px;
     }
