@@ -1,5 +1,8 @@
 .space {
-    height: 300px;
+    @media only screen and (max-width: 500px) {
+        height: 150px;
+    }
+    height: 150px;
     width: 200px;
     color: transparent;
 }
@@ -7,11 +10,11 @@
 .jarallax {
     background-image: url(https://res.cloudinary.com/dadqp2oia/image/upload/v1629673789/Music%20Website/BG/lake-elsinore_hkanlo.png);
     background-attachment: fixed; 
-    height: 5200px;
+    height: 5700px;
     @media only screen and (min-width: 650px) {
-        height: 4000px;
+        height: 4500px;
     }
-    @media only screen and (min-width: 750px) {
+    @media only screen and (min-width: 767px) {
         height: 4500px;
     }
     @media only screen and (min-width: 1450px) {
